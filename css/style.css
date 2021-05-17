@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Grotesk Bold;
+    src: url(../fonts/HKGrotesk-Bold.otf);
+  }
+  @font-face {
+    font-family: Grotesk Bold Italic;
+    src: url(../fonts/HKGrotesk-BoldItalic.otf);
+  }
+  @font-face {
+    font-family: Grotesk Extra Bold;
+    src: url(../fonts/HKGrotesk-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: Grotesk Medium;
+    src: url(../fonts/HKGrotesk-Medium.otf);
+  }
+  @font-face {
+    font-family: Grotesk Regular;
+    src: url(../fonts/HKGrotesk-Regular.otf);
+  }
+  @font-face {
+    font-family: Grotesk Semi-Bold;
+    src: url(../fonts/HKGrotesk-SemiBold.otf);
+  }
+}
